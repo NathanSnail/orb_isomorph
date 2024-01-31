@@ -8,6 +8,7 @@ with open("D:/Steam/steamapps/common/Noita/noita.exe", "rb") as f:
 #src = "data/weather_gfx/background_cave_02.png"
 src = b"void_liquid"
 src = b"a2332a"
+src = b"830000"
 for off in range(1, 1000):
     print(off)
     for alpha in range(off):

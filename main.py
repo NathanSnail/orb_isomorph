@@ -4,8 +4,9 @@ with open("D:/Steam/steamapps/common/Noita/noita.exe", "rb") as f:
 #src = "data/entities/items/orbs/orb_13.xml"
 #src = "data/entities/items/orbs/orb_11.xml"[::2]
 #src = "[__34_orb_end_credits]"
-src = "data/weather_gfx/background_cave_02.png"
+#src = "data/weather_gfx/background_cave_02.png"
 #src = "void_liquid"
+src = input("pattern: ")
 m = {}
 pattern = []
 idx = 0
